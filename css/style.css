@@ -1,0 +1,469 @@
+
+
+
+body{
+    background-color: darkseagreen;
+}
+
+.nav_menu{
+
+    background-color: orange;
+}
+
+.outer_position{
+    /*display: flex;*/
+    position: relative;
+}
+
+.wrapper{
+    /*background-color: black;*/
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 300px;
+    margin-top: 28px;
+    padding: 20px 0;
+    /*background-color: darkgoldenrod;*/
+}
+
+.logo img{
+    width: 32px;
+    height: 32px;
+}
+
+.logo span{
+    font-size: 2.5rem;
+    /*padding-bottom: 15%;*/
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    /*align-content: center;*/
+    margin-top: 28px;
+    height: 100%;
+    /*flex: 8;*/
+    /*background-color: yellow;*/
+}
+
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li{
+    padding-right: 32px;
+    display: flex;
+}
+
+.sign_up{
+    align-self: center;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    width: 100px;
+    height: 45px;
+
+    /*align-self: center;*/
+
+}
+
+.level_one{
+    display: flex;
+    width: 100%;
+    height: 510px;
+    background: #F4F6F5;
+    border-radius: 36px;
+}
+
+.level_one .left_part{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+    left: 5%;
+    top: 9%;
+    width: 45%;
+    height: 411px;
+    bottom: 54px;
+    /*background-color: crimson;*/
+}
+
+.level_one .left_part div{
+    margin-bottom: 3%;
+}
+
+.level_one .left_part p{
+    margin-bottom: 6%;
+}
+
+.left_part div img{
+    width: 25%;
+    margin-right: 5%;
+}
+
+.left_part div a button{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 1.7rem;
+    padding: 2%;
+}
+
+.left_part div{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.level_one .right_part{
+    display: flex;
+    /*flex-flow: column-reverse;*/
+    /*justify-content: flex-start;*/
+    position: relative;
+    width: 55%;
+    right: -0;
+    height: 92%;
+    top: 8%;
+    /*background-color: green;*/
+}
+
+.level_one .right_part img{
+    height: 100%;
+    align-self: flex-end;
+}
+
+.stars{
+    z-index: 13;
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    display: block;
+    /*display: flex;*/
+    /*position: relative;*/
+}
+
+.right_part .stars img{
+    z-index: 13;
+    /*left: -30vw;*/
+    width: 30px;
+    height: 30px;
+    /*position: absolute;*/
+    /*background-color: crimson;*/
+}
+
+.right_part .stars .star1{
+    position: absolute;
+    /*transform: translateX(-100px);*/
+    /*background-color: black;*/
+}
+
+.right_part .stars .star2{
+    position: absolute;
+    transform: translateX(420px);
+    /*background-color: black;*/
+}
+
+.right_part .stars .star3{
+    position: absolute;
+    transform: translate(470px, 400px);
+
+    /*background-color: black;*/
+}
+
+.right_part .stars .star4{
+    position: absolute;
+    transform: translate(-10px, 440px);
+    /*background-color: black;*/
+}
+
+.level_two{
+    margin-top: 37px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 112px;
+    background-color: mediumaquamarine;
+}
+
+.new_arrivals{
+    position: relative;
+    margin-top: 42px;
+    width: 100%;
+    height: 45px;
+    /*background-color: blueviolet;*/
+    /*border: #F4F6F5 solid medium;*/
+}
+
+.new_arrivals span{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 2rem;
+    z-index: 3;
+    font-weight: 900;
+    /*background: no-repeat url("../img/peace_of_shit.png");*/
+}
+
+.new_arrivals img{
+    position: absolute;
+    z-index: 1;
+    height: 27px;
+    transform: translate(115px, 13px);
+}
+
+.level_three{
+    margin-bottom: 30px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 510px;
+    /*background-color: aqua;*/
+    /*border: #F4F6F5 solid medium;*/
+}
+
+.level_three .inner_three_item{
+    display: flex;
+    flex-flow: column;
+    width: 250px;
+    height: 100%;
+    /*background-color: black;*/
+}
+
+.shop_group_name{
+    /*color: #F4F6F5;*/
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.level_three .inner_three_item .level_three_img{
+    width: 100%;
+    height: 78%;
+    background-color: #F4F6F5;
+    border-radius: 20px;
+}
+
+.level_three .inner_three_item .level_three_img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+.level_four{
+    margin-bottom: 50px;
+    display: flex;
+    /*justify-content: space-evenly;*/
+    margin-top: 50px;
+    width: 100%;
+    height: 560px;
+    /*background-color: crimson;*/
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+}
+
+.left_div{
+    width: 55%;
+    height: 100%;
+    background-color: black;
+}
+
+.left_div img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.right_div{
+    /*top: 5%;*/
+    display: flex;
+    flex-flow: column;
+    margin-top: 8%;
+    width: 45%;
+    height: 100%;
+    /*background-color: darkorange;*/
+}
+
+.level_four .right_div p{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+.big_text{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+}
+
+.date{
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-top: -30px;
+    margin-bottom: -20px;
+
+}
+
+.right_div div a button{
+    margin-top: -20px;
+    /*color: white;*/
+    /*background-color: black;*/
+    /*text-transform: uppercase;*/
+    /*font-size: 1.7rem;*/
+    /*border-radius: 7px;*/
+    /*padding: 2%;*/
+    /*width: 170px;*/
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 1.7rem;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.favourite{
+    display: flex;
+    /*margin-top: 180px;*/
+    position: relative;
+    margin-top: 42px;
+    width: 100%;
+    height: 45px;
+}
+
+.favourite span{
+    position: absolute;
+    /*text-transform: uppercase;*/
+    font-size: 2rem;
+    z-index: 3;
+    font-weight: 900;
+}
+
+.favourite img{
+    position: absolute;
+    z-index: 1;
+    height: 27px;
+    transform: translate(200px, 13px);
+}
+
+
+
+.level_five{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 435px;
+    border-radius: 12px;
+    background-color: gainsboro;
+}
+
+.inner_favourites{
+    display: flex;
+    flex-flow: column;
+
+    width: 48%;
+    height: 100%;
+    /*background-color: deeppink;*/
+}
+
+
+
+.level_six{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 426px;
+    margin-top: 112px;
+}
+
+.level_six .phone_theme_left{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: mediumaquamarine;
+}
+
+
+
+.phone_theme_right{
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    width: 50%;
+    height: 100%;
+    background-color: hotpink;
+}
+
+.phone_theme_right img{
+    /*height: 100%;*/
+    position: absolute;
+    object-fit: cover;
+    align-self: center;
+    height: 100%;
+    z-index: 1;
+}
+
+
+
+.level_six .phone_theme_right .dot1{
+    position: absolute;
+    z-index: 3;
+    width: 25px;
+    height: 25px;
+    transform: translate(140px, 52px);
+}
+
+.level_six .phone_theme_right .dot2{
+    position: absolute;
+    z-index: 3;
+    width: 15px;
+    height: 15px;
+    transform: translate(-150px, 362px);
+}
+
+.level_six .phone_theme_right .dot3{
+    position: absolute;
+    z-index: 3;
+    width: 15px;
+    height: 15px;
+    transform: translate(-150px, 52px);
+}
+
+.level_six .phone_theme_right .dot4{
+    position: absolute;
+    z-index: 3;
+    width: 15px;
+    height: 15px;
+    transform: translate(161px, 318px);
+}
+
+
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 327px;
+    background-color: black;
+}
